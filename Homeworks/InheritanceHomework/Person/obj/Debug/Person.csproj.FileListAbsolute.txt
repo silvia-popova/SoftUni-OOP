@@ -1,0 +1,1 @@
+c:\users\pc\documents\visual studio 2015\Projects\InheritanceHomework\Person\bin\Debug\Person.exe.config

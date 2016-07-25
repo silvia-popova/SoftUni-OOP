@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\05.AnimalClinic\bin\Debug\05.AnimalClinic.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\05.AnimalClinic\bin\Debug\05.AnimalClinic.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\05.AnimalClinic\bin\Debug\05.AnimalClinic.pdb
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\05.AnimalClinic\obj\Debug\05.AnimalClinic.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\05.AnimalClinic\obj\Debug\05.AnimalClinic.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\05.AnimalClinic\obj\Debug\05.AnimalClinic.pdb

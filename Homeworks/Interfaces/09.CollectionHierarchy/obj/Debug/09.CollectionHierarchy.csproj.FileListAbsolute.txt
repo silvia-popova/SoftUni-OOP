@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\Interfaces\09.CollectionHierarchy\bin\Debug\09.CollectionHierarchy.exe.config
+C:\Users\pc\Documents\Interfaces\09.CollectionHierarchy\bin\Debug\09.CollectionHierarchy.exe
+C:\Users\pc\Documents\Interfaces\09.CollectionHierarchy\bin\Debug\09.CollectionHierarchy.pdb
+C:\Users\pc\Documents\Interfaces\09.CollectionHierarchy\obj\Debug\09.CollectionHierarchy.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Interfaces\09.CollectionHierarchy\obj\Debug\09.CollectionHierarchy.exe
+C:\Users\pc\Documents\Interfaces\09.CollectionHierarchy\obj\Debug\09.CollectionHierarchy.pdb

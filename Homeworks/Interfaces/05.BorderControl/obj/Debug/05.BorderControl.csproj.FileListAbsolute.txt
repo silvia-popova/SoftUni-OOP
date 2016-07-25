@@ -1,0 +1,6 @@
+c:\users\pc\documents\Interfaces\05.BorderControl\bin\Debug\05.BorderControl.exe.config
+c:\users\pc\documents\Interfaces\05.BorderControl\bin\Debug\05.BorderControl.exe
+c:\users\pc\documents\Interfaces\05.BorderControl\bin\Debug\05.BorderControl.pdb
+c:\users\pc\documents\Interfaces\05.BorderControl\obj\Debug\05.BorderControl.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\Interfaces\05.BorderControl\obj\Debug\05.BorderControl.exe
+c:\users\pc\documents\Interfaces\05.BorderControl\obj\Debug\05.BorderControl.pdb

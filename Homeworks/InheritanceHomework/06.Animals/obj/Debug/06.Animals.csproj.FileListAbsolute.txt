@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\Visual Studio 2015\Projects\InheritanceHomework\06.Animals\bin\Debug\06.Animals.exe.config
+C:\Users\pc\Documents\Visual Studio 2015\Projects\InheritanceHomework\06.Animals\bin\Debug\06.Animals.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\InheritanceHomework\06.Animals\bin\Debug\06.Animals.pdb
+C:\Users\pc\Documents\Visual Studio 2015\Projects\InheritanceHomework\06.Animals\obj\Debug\06.Animals.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2015\Projects\InheritanceHomework\06.Animals\obj\Debug\06.Animals.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\InheritanceHomework\06.Animals\obj\Debug\06.Animals.pdb

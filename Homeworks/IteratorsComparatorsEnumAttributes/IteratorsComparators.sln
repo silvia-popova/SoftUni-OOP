@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListyIterator", "ListyIterator\ListyIterator.csproj", "{5B427B2F-DDF5-4D09-92E1-C2093BD15B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingObjects", "ComparingObjects\ComparingObjects.csproj", "{BBA50FDD-3BCC-4FC4-9783-022678C93041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetClinics", "PetClinics\PetClinics.csproj", "{120F0AE6-4D03-4585-A306-E81A62D618E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1.Card Suit", "Problem1.Card Suit\Problem1.Card Suit.csproj", "{48DDA5FF-EDE5-4D7F-B798-AB9DE0E560FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem9.TrafficLights", "Problem9.TrafficLights\Problem9.TrafficLights.csproj", "{FB31E4A5-752F-49F4-AA6E-CEBDFE272FF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfernoInfinity", "InfernoInfinity\InfernoInfinity.csproj", "{A1DF2754-D022-4CAF-A82B-85F873D9CF47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustmClassAttribute", "CustmClassAttribute\CustmClassAttribute.csproj", "{788DF7A8-6995-4FF0-9C86-391AE378B59A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B427B2F-DDF5-4D09-92E1-C2093BD15B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B427B2F-DDF5-4D09-92E1-C2093BD15B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B427B2F-DDF5-4D09-92E1-C2093BD15B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B427B2F-DDF5-4D09-92E1-C2093BD15B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA50FDD-3BCC-4FC4-9783-022678C93041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA50FDD-3BCC-4FC4-9783-022678C93041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA50FDD-3BCC-4FC4-9783-022678C93041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA50FDD-3BCC-4FC4-9783-022678C93041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120F0AE6-4D03-4585-A306-E81A62D618E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120F0AE6-4D03-4585-A306-E81A62D618E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120F0AE6-4D03-4585-A306-E81A62D618E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120F0AE6-4D03-4585-A306-E81A62D618E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DDA5FF-EDE5-4D7F-B798-AB9DE0E560FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DDA5FF-EDE5-4D7F-B798-AB9DE0E560FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DDA5FF-EDE5-4D7F-B798-AB9DE0E560FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DDA5FF-EDE5-4D7F-B798-AB9DE0E560FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB31E4A5-752F-49F4-AA6E-CEBDFE272FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB31E4A5-752F-49F4-AA6E-CEBDFE272FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB31E4A5-752F-49F4-AA6E-CEBDFE272FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB31E4A5-752F-49F4-AA6E-CEBDFE272FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DF2754-D022-4CAF-A82B-85F873D9CF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DF2754-D022-4CAF-A82B-85F873D9CF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DF2754-D022-4CAF-A82B-85F873D9CF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DF2754-D022-4CAF-A82B-85F873D9CF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788DF7A8-6995-4FF0-9C86-391AE378B59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788DF7A8-6995-4FF0-9C86-391AE378B59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788DF7A8-6995-4FF0-9C86-391AE378B59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788DF7A8-6995-4FF0-9C86-391AE378B59A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

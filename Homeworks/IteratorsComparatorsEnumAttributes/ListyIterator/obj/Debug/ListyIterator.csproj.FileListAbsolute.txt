@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ListyIterator\bin\Debug\ListyIterator.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ListyIterator\bin\Debug\ListyIterator.exe
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ListyIterator\bin\Debug\ListyIterator.pdb
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ListyIterator\obj\Debug\ListyIterator.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ListyIterator\obj\Debug\ListyIterator.exe
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ListyIterator\obj\Debug\ListyIterator.pdb
+C:\Users\pc\Desktop\OOP\Homeworks\IteratorsComparatorsEnumAttributes\ListyIterator\bin\Debug\ListyIterator.exe.config
+C:\Users\pc\Desktop\OOP\Homeworks\IteratorsComparatorsEnumAttributes\ListyIterator\obj\Debug\ListyIterator.exe
+C:\Users\pc\Desktop\OOP\Homeworks\IteratorsComparatorsEnumAttributes\ListyIterator\obj\Debug\ListyIterator.pdb

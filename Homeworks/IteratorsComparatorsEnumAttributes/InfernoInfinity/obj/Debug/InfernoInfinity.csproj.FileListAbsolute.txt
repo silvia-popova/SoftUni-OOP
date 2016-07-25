@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\InfernoInfinity\bin\Debug\InfernoInfinity.exe.config
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\InfernoInfinity\obj\Debug\InfernoInfinity.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\InfernoInfinity\bin\Debug\InfernoInfinity.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\InfernoInfinity\bin\Debug\InfernoInfinity.pdb
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\InfernoInfinity\obj\Debug\InfernoInfinity.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\InfernoInfinity\obj\Debug\InfernoInfinity.pdb

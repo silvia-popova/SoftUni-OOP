@@ -1,0 +1,5 @@
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\03.TemperatureConverter\bin\Debug\03.TemperatureConverter.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\03.TemperatureConverter\bin\Debug\03.TemperatureConverter.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\03.TemperatureConverter\bin\Debug\03.TemperatureConverter.pdb
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\03.TemperatureConverter\obj\Debug\03.TemperatureConverter.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\03.TemperatureConverter\obj\Debug\03.TemperatureConverter.pdb

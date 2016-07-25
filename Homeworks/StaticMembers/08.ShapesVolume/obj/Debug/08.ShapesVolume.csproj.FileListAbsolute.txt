@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\08.ShapesVolume\bin\Debug\08.ShapesVolume.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\08.ShapesVolume\bin\Debug\08.ShapesVolume.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\08.ShapesVolume\bin\Debug\08.ShapesVolume.pdb
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\08.ShapesVolume\obj\Debug\08.ShapesVolume.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\08.ShapesVolume\obj\Debug\08.ShapesVolume.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\08.ShapesVolume\obj\Debug\08.ShapesVolume.pdb

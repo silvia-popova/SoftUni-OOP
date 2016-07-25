@@ -1,0 +1,5 @@
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\04.BeerCounter\bin\Debug\04.BeerCounter.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\04.BeerCounter\bin\Debug\04.BeerCounter.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\04.BeerCounter\bin\Debug\04.BeerCounter.pdb
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\04.BeerCounter\obj\Debug\04.BeerCounter.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\04.BeerCounter\obj\Debug\04.BeerCounter.pdb

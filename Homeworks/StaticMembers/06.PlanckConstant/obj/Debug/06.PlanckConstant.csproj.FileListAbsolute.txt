@@ -1,0 +1,5 @@
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\06.PlanckConstant\bin\Debug\06.PlanckConstant.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\06.PlanckConstant\bin\Debug\06.PlanckConstant.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\06.PlanckConstant\bin\Debug\06.PlanckConstant.pdb
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\06.PlanckConstant\obj\Debug\06.PlanckConstant.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\06.PlanckConstant\obj\Debug\06.PlanckConstant.pdb

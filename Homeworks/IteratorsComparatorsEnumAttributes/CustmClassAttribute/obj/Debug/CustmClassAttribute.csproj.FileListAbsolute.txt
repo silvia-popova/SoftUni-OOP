@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\CustmClassAttribute\bin\Debug\CustmClassAttribute.exe.config
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\CustmClassAttribute\bin\Debug\CustmClassAttribute.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\CustmClassAttribute\bin\Debug\CustmClassAttribute.pdb
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\CustmClassAttribute\obj\Debug\CustmClassAttribute.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\CustmClassAttribute\obj\Debug\CustmClassAttribute.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\CustmClassAttribute\obj\Debug\CustmClassAttribute.pdb

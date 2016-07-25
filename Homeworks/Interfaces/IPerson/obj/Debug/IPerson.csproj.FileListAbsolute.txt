@@ -1,0 +1,6 @@
+c:\users\pc\documents\Interfaces\IPerson\bin\Debug\IPerson.exe.config
+c:\users\pc\documents\Interfaces\IPerson\bin\Debug\IPerson.exe
+c:\users\pc\documents\Interfaces\IPerson\bin\Debug\IPerson.pdb
+c:\users\pc\documents\Interfaces\IPerson\obj\Debug\IPerson.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\Interfaces\IPerson\obj\Debug\IPerson.exe
+c:\users\pc\documents\Interfaces\IPerson\obj\Debug\IPerson.pdb

@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\Generics\01.GenericBox\bin\Debug\01.GenericBox.exe.config
+C:\Users\pc\Documents\Visual Studio 2015\Projects\Generics\01.GenericBox\bin\Debug\01.GenericBox.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\Generics\01.GenericBox\bin\Debug\01.GenericBox.pdb
+C:\Users\pc\Documents\Visual Studio 2015\Projects\Generics\01.GenericBox\obj\Debug\01.GenericBox.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2015\Projects\Generics\01.GenericBox\obj\Debug\01.GenericBox.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\Generics\01.GenericBox\obj\Debug\01.GenericBox.pdb

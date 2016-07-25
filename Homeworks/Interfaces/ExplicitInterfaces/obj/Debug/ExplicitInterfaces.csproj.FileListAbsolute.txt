@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\Interfaces\ExplicitInterfaces\bin\Debug\ExplicitInterfaces.exe.config
+C:\Users\pc\Documents\Interfaces\ExplicitInterfaces\bin\Debug\ExplicitInterfaces.exe
+C:\Users\pc\Documents\Interfaces\ExplicitInterfaces\bin\Debug\ExplicitInterfaces.pdb
+C:\Users\pc\Documents\Interfaces\ExplicitInterfaces\obj\Debug\ExplicitInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Interfaces\ExplicitInterfaces\obj\Debug\ExplicitInterfaces.exe
+C:\Users\pc\Documents\Interfaces\ExplicitInterfaces\obj\Debug\ExplicitInterfaces.pdb

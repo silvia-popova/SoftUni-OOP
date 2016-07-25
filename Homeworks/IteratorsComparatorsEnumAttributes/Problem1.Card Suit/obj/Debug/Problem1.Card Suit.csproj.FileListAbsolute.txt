@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem1.Card Suit\bin\Debug\Problem1.Card Suit.exe.config
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem1.Card Suit\bin\Debug\Problem1.Card Suit.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem1.Card Suit\bin\Debug\Problem1.Card Suit.pdb
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem1.Card Suit\obj\Debug\Problem1.Card Suit.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem1.Card Suit\obj\Debug\Problem1.Card Suit.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem1.Card Suit\obj\Debug\Problem1.Card Suit.pdb

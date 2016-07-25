@@ -1,0 +1,5 @@
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\07.BasicMath\bin\Debug\07.BasicMath.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\07.BasicMath\bin\Debug\07.BasicMath.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\07.BasicMath\bin\Debug\07.BasicMath.pdb
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\07.BasicMath\obj\Debug\07.BasicMath.exe
+c:\users\pc\documents\visual studio 2015\Projects\StaticMembers\07.BasicMath\obj\Debug\07.BasicMath.pdb

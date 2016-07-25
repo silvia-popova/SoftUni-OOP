@@ -1,0 +1,6 @@
+c:\users\pc\documents\Interfaces\08.MilitaryElite\bin\Debug\08.MilitaryElite.exe.config
+c:\users\pc\documents\Interfaces\08.MilitaryElite\bin\Debug\08.MilitaryElite.exe
+c:\users\pc\documents\Interfaces\08.MilitaryElite\bin\Debug\08.MilitaryElite.pdb
+c:\users\pc\documents\Interfaces\08.MilitaryElite\obj\Debug\08.MilitaryElite.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\Interfaces\08.MilitaryElite\obj\Debug\08.MilitaryElite.exe
+c:\users\pc\documents\Interfaces\08.MilitaryElite\obj\Debug\08.MilitaryElite.pdb

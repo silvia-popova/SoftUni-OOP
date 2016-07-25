@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\InheritanceHomework\02.BookShop\bin\Debug\02.BookShop.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\InheritanceHomework\02.BookShop\bin\Debug\02.BookShop.exe
+c:\users\pc\documents\visual studio 2015\Projects\InheritanceHomework\02.BookShop\bin\Debug\02.BookShop.pdb
+c:\users\pc\documents\visual studio 2015\Projects\InheritanceHomework\02.BookShop\obj\Debug\02.BookShop.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\InheritanceHomework\02.BookShop\obj\Debug\02.BookShop.exe
+c:\users\pc\documents\visual studio 2015\Projects\InheritanceHomework\02.BookShop\obj\Debug\02.BookShop.pdb

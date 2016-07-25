@@ -1,0 +1,9 @@
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem9.TrafficLights\bin\Debug\Problem9.TrafficLights.exe.config
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem9.TrafficLights\bin\Debug\Problem9.TrafficLights.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem9.TrafficLights\bin\Debug\Problem9.TrafficLights.pdb
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem9.TrafficLights\obj\Debug\Problem9.TrafficLights.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem9.TrafficLights\obj\Debug\Problem9.TrafficLights.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\IteratorsComparators\Problem9.TrafficLights\obj\Debug\Problem9.TrafficLights.pdb
+C:\Users\pc\Desktop\OOP\Homeworks\IteratorsComparatorsEnumAttributes\Problem9.TrafficLights\bin\Debug\Problem9.TrafficLights.exe.config
+C:\Users\pc\Desktop\OOP\Homeworks\IteratorsComparatorsEnumAttributes\Problem9.TrafficLights\obj\Debug\Problem9.TrafficLights.exe
+C:\Users\pc\Desktop\OOP\Homeworks\IteratorsComparatorsEnumAttributes\Problem9.TrafficLights\obj\Debug\Problem9.TrafficLights.pdb

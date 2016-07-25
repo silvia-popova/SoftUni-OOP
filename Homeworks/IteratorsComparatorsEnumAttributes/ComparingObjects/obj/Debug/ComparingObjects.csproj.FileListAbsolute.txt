@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ComparingObjects\bin\Debug\ComparingObjects.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ComparingObjects\bin\Debug\ComparingObjects.exe
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ComparingObjects\bin\Debug\ComparingObjects.pdb
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ComparingObjects\obj\Debug\ComparingObjects.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ComparingObjects\obj\Debug\ComparingObjects.exe
+c:\users\pc\documents\visual studio 2015\Projects\IteratorsComparators\ComparingObjects\obj\Debug\ComparingObjects.pdb

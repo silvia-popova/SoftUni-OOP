@@ -1,0 +1,6 @@
+c:\users\pc\documents\Interfaces\04.Telephony\bin\Debug\04.Telephony.exe.config
+c:\users\pc\documents\Interfaces\04.Telephony\bin\Debug\04.Telephony.exe
+c:\users\pc\documents\Interfaces\04.Telephony\bin\Debug\04.Telephony.pdb
+c:\users\pc\documents\Interfaces\04.Telephony\obj\Debug\04.Telephony.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\Interfaces\04.Telephony\obj\Debug\04.Telephony.exe
+c:\users\pc\documents\Interfaces\04.Telephony\obj\Debug\04.Telephony.pdb
