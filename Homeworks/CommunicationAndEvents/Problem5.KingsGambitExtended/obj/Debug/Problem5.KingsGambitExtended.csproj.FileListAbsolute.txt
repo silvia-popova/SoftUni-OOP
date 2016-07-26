@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem5.KingsGambitExtended\bin\Debug\Problem5.KingsGambitExtended.exe.config
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem5.KingsGambitExtended\bin\Debug\Problem5.KingsGambitExtended.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem5.KingsGambitExtended\bin\Debug\Problem5.KingsGambitExtended.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem5.KingsGambitExtended\obj\Debug\Problem5.KingsGambitExtended.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem5.KingsGambitExtended\obj\Debug\Problem5.KingsGambitExtended.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem5.KingsGambitExtended\obj\Debug\Problem5.KingsGambitExtended.pdb

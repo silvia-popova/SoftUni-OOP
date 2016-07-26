@@ -25,29 +25,69 @@ namespace InfernoInfinity.Core
             var commandArgs = input.Split(';');
             var command = commandArgs[0];
 
-            switch (command)
+            if (input == "Author")
             {
-                case "Create":
-                    var weapon = this.CreateWeapon(commandArgs);
-                    this.data.AddWeapon(weapon);
-                    break;
-                case "Add":
-                    weapon = this.data.FindWeaponByName(commandArgs[1]);
-                    int index = int.Parse(commandArgs[2]);
-                    IGem gem = this.CreateGem(commandArgs[3].Split());
-                    weapon.AddGem(gem, index);
-                    break;
-                case "Remove":
-                    weapon = this.data.FindWeaponByName(commandArgs[1]);
-                    index = int.Parse(commandArgs[2]);
-                    weapon.RemoveGem(index);
-                    break;
-                case "Print":
-                    weapon = this.data.FindWeaponByName(commandArgs[1]);
-                    GetWeaponInfo(weapon);
-                    break;
-                default:
-                    throw new InvalidCommandexception("Unknown command!");
+                var type = Assembly.GetExecutingAssembly()
+                   .GetTypes()
+                   .FirstOrDefault(c => c.CustomAttributes.Any(a => a.AttributeType == typeof(WeaponAttribute)));
+
+                var attr = type.GetCustomAttribute<WeaponAttribute>();
+                Console.WriteLine("Author: {0}", attr.Author);
+            }
+            else if (input == "Revision")
+            {
+                var type = Assembly.GetExecutingAssembly()
+                   .GetTypes()
+                   .FirstOrDefault(c => c.CustomAttributes.Any(a => a.AttributeType == typeof(WeaponAttribute)));
+
+                var attr = type.GetCustomAttribute<WeaponAttribute>();
+                Console.WriteLine("Revision: {0}", attr.Revision);
+            }
+            else if (input == "Description")
+            {
+                var type = Assembly.GetExecutingAssembly()
+                   .GetTypes()
+                   .FirstOrDefault(c => c.CustomAttributes.Any(a => a.AttributeType == typeof(WeaponAttribute)));
+
+                var attr = type.GetCustomAttribute<WeaponAttribute>();
+                Console.WriteLine("Class description: {0}", attr.Description);
+            }
+            else if (input == "Reviewers")
+            {
+                var type = Assembly.GetExecutingAssembly()
+                   .GetTypes()
+                   .FirstOrDefault(c => c.CustomAttributes.Any(a => a.AttributeType == typeof(WeaponAttribute)));
+
+                var attr = type.GetCustomAttribute<WeaponAttribute>();
+                Console.WriteLine("Reviewers: {0}", string.Join(", ", attr.Reviewers.ToList()));
+            }
+            else
+            {
+                switch (command)
+                {
+                    case "Create":
+                        var weapon = this.CreateWeapon(commandArgs);
+                        this.data.AddWeapon(weapon);
+                        break;
+                    case "Add":
+                        weapon = this.data.FindWeaponByName(commandArgs[1]);
+                        int index = int.Parse(commandArgs[2]);
+                        IGem gem = this.CreateGem(commandArgs[3].Split());
+                        weapon.AddGem(gem, index);
+                        break;
+                    case "Remove":
+                        weapon = this.data.FindWeaponByName(commandArgs[1]);
+                        index = int.Parse(commandArgs[2]);
+                        weapon.RemoveGem(index);
+                        break;
+                    case "Print":
+                        weapon = this.data.FindWeaponByName(commandArgs[1]);
+                        GetWeaponInfo(weapon);
+                        break;
+                    default:
+                        throw new InvalidCommandexception("Unknown command!");
+                }
+            
             }
         }
 

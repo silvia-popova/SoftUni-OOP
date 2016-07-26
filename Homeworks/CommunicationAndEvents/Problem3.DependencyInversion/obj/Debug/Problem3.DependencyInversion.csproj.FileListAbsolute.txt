@@ -1,0 +1,1 @@
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem3.DependencyInversion\bin\Debug\Problem3.DependencyInversion.exe.config

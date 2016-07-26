@@ -1,0 +1,7 @@
+C:\Users\pc\Desktop\Algo\DP\CommunicationAndEvents\Problem1.EventImplementation\bin\Debug\Problem1.EventImplementation.exe.config
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem1.EventImplementation\bin\Debug\Problem1.EventImplementation.exe.config
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem1.EventImplementation\bin\Debug\Problem1.EventImplementation.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem1.EventImplementation\bin\Debug\Problem1.EventImplementation.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem1.EventImplementation\obj\Debug\Problem1.EventImplementation.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem1.EventImplementation\obj\Debug\Problem1.EventImplementation.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem1.EventImplementation\obj\Debug\Problem1.EventImplementation.pdb
