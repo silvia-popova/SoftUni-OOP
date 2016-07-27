@@ -78,11 +78,120 @@
       </violation>
     </violations>
   </sourcecode>
+  <project key="190605410">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <project key="376833315">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="AliasAttribute.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.345</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="InjectAttribute.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.326</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
   <sourcecode name="IAsynchDownloader.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:04.006</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.399</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -104,8 +213,8 @@
   <sourcecode name="IContentComparer.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:04.069</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.406</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -127,8 +236,8 @@
   <sourcecode name="ICourse.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:13:33.151</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.413</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -150,8 +259,8 @@
   <sourcecode name="IDatabase.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:04.324</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.460</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -173,8 +282,8 @@
   <sourcecode name="IDataFilter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.870</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.448</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -196,8 +305,8 @@
   <sourcecode name="IDataSorter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.948</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.453</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -219,8 +328,8 @@
   <sourcecode name="IDirectoryChanger.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:03.807</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.466</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -242,8 +351,8 @@
   <sourcecode name="IDirectoryCreator.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:03.787</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.510</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -265,8 +374,8 @@
   <sourcecode name="IDirectoryManager.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:03.826</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.516</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -288,8 +397,8 @@
   <sourcecode name="IDirectoryTraverser.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:03.754</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.522</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -311,8 +420,8 @@
   <sourcecode name="IDownloader.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:03.987</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.536</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -334,8 +443,8 @@
   <sourcecode name="IDownloadManager.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:04.033</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.530</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -357,8 +466,8 @@
   <sourcecode name="IExecutable.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:03.715</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.577</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -380,8 +489,8 @@
   <sourcecode name="IFilteredTaker.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:04.361</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.582</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -403,8 +512,8 @@
   <sourcecode name="IInterpreter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:03.734</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.594</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -426,8 +535,8 @@
   <sourcecode name="IOrderedTaker.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:04.379</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.606</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -449,8 +558,8 @@
   <sourcecode name="IReader.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:44:03.850</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.612</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -472,8 +581,8 @@
   <sourcecode name="IRequester.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.698</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.617</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -495,8 +604,8 @@
   <sourcecode name="ISimpleOrderedBag.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.605</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.623</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -518,8 +627,8 @@
   <sourcecode name="ISudent.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:13:33.182</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.630</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -541,8 +650,8 @@
   <sourcecode name="SimpleSortedList.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.277</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.637</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -564,8 +673,8 @@
   <sourcecode name="DuplicateEntryInStructureException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.995</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.644</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -587,8 +696,8 @@
   <sourcecode name="InvalidCommandException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:48.057</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.720</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -610,8 +719,8 @@
   <sourcecode name="InvalidFileNameException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:13:33.057</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.911</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -633,8 +742,8 @@
   <sourcecode name="InvalidPathException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:13:33.089</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.918</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -656,8 +765,133 @@
   <sourcecode name="InvalidStringException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:48.073</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:10:59.924</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CommandInterpreter.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:50:41.242</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="KeywordsMustBeSpacedCorrectly" ruleCheckId="SA1000">
+        <context>The spacing around the keyword 'typeof' is invalid.</context>
+        <line>55</line>
+        <index>1727</index>
+        <endIndex>1732</endIndex>
+        <startLine>55</startLine>
+        <startColumn>55</startColumn>
+        <endLine>55</endLine>
+        <endColumn>60</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1008">
+        <context>Invalid spacing around the opening parenthesis.</context>
+        <line>55</line>
+        <index>1733</index>
+        <endIndex>1733</endIndex>
+        <startLine>55</startLine>
+        <startColumn>61</startColumn>
+        <endLine>55</endLine>
+        <endColumn>61</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>61</line>
+        <index>1963</index>
+        <endIndex>1963</endIndex>
+        <startLine>61</startLine>
+        <startColumn>36</startColumn>
+        <endLine>61</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="KeywordsMustBeSpacedCorrectly" ruleCheckId="SA1000">
+        <context>The spacing around the keyword 'typeof' is invalid.</context>
+        <line>68</line>
+        <index>2428</index>
+        <endIndex>2433</endIndex>
+        <startLine>68</startLine>
+        <startColumn>76</startColumn>
+        <endLine>68</endLine>
+        <endColumn>81</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1008">
+        <context>Invalid spacing around the opening parenthesis.</context>
+        <line>68</line>
+        <index>2434</index>
+        <endIndex>2434</endIndex>
+        <startLine>68</startLine>
+        <startColumn>82</startColumn>
+        <endLine>68</endLine>
+        <endColumn>82</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="ChangeAbsolutePathCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.306</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ChangeRelativePathCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.241</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -679,8 +913,307 @@
   <sourcecode name="Command.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:39:32.598</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.271</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CompareFilesCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.213</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DisplayCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.190</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DownloadAsynchCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.166</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DownloadFileCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.133</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DropDatabaseCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.101</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GetHelpCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.073</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="MakeDirectoryCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:01.042</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="OpenFileCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:00.999</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="PrintFilteredStudentsCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:00.965</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="PrintOrderedStudentsCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:00.934</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ReadDatabaseCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:00.880</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ShowCourseCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:00.861</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="TraverseFoldersCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/27 14:46:00.824</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -702,8 +1235,8 @@
   <sourcecode name="InputReader.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.230</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.637</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -725,8 +1258,8 @@
   <sourcecode name="IOManager.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:13:32.511</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.553</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -748,8 +1281,8 @@
   <sourcecode name="OutputWriter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:48.104</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.647</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -771,8 +1304,8 @@
   <sourcecode name="Tester.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.246</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.661</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -794,8 +1327,8 @@
   <sourcecode name="SoftUniCourse.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:13:32.730</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.702</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -817,8 +1350,8 @@
   <sourcecode name="SoftUniStudent.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.714</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.708</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -840,8 +1373,8 @@
   <sourcecode name="DownloadManager.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.979</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.718</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -863,8 +1396,8 @@
   <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.105</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.790</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -886,8 +1419,8 @@
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/11 14:09:13.542</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.802</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -909,8 +1442,8 @@
   <sourcecode name="RepositioryFilter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:13:32.480</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.813</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -932,8 +1465,31 @@
   <sourcecode name="RepositorySorter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:37:47.932</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.820</sourceFile>
+      <parser>2016/07/23 20:42:18.634</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="StudentsRepository.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/07/23 20:42:18.634</styleCop>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.850</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -955,8 +1511,8 @@
   <sourcecode name="ExceptionMessages.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/20 16:43:16.256</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.870</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -978,8 +1534,8 @@
   <sourcecode name="SessionData.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:13:33.135</sourceFile>
+      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <sourceFile>2016/07/26 20:11:00.876</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -1002,415 +1558,11 @@
         <line>9</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.NamingRules" rule="AccessibleFieldsMustBeginWithUpperCaseLetter" ruleCheckId="SA1307">
-        <context>Public and internal fields must start with an upper-case letter: currentPath.</context>
-        <line>9</line>
-        <warning>False</warning>
-      </violation>
       <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="FieldsMustBePrivate" ruleCheckId="SA1401">
         <context>Fields must be declared with private access. Use properties to expose fields.</context>
         <line>10</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.NamingRules" rule="AccessibleFieldsMustBeginWithUpperCaseLetter" ruleCheckId="SA1307">
-        <context>Public and internal fields must start with an upper-case letter: taskPool.</context>
-        <line>10</line>
-        <warning>False</warning>
-      </violation>
     </violations>
   </sourcecode>
-  <sourcecode name="CommandInterpreter.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.781</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="ChangeAbsolutePathCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:30.109</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="ChangeRelativePathCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:30.077</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="CompareFilesCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.765</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="DisplayCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:30.124</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="DownloadAsynchCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:30.062</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="DownloadFileCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:30.046</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="DropDatabaseCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:30.015</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="GetHelpCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.999</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="MakeDirectoryCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.984</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="OpenFileCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.953</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="PrintFilteredStudentsCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.937</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="PrintOrderedStudentsCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.890</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="ReadDatabaseCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.875</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="ShowCourseCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.843</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="TraverseFoldersCommand.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 21:58:29.797</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="StudentsRepository.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/23 21:44:15.152</settingsFile>
-      <sourceFile>2016/07/23 22:00:26.099</sourceFile>
-      <parser>2016/07/23 20:42:18.634</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/07/23 20:42:18.634</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/07/23 20:42:18.634</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <project key="190605410">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
 </stylecopresultscache>

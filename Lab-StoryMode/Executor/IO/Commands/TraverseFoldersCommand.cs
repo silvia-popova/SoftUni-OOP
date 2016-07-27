@@ -1,18 +1,17 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Executor.Attributes;
     using Executor.Contracts;
     using Executor.Exceptions;
 
+    [Alias("ls")]
     public class TraverseFoldersCommand : Command
     {
-        public TraverseFoldersCommand(
-            string input,
-            string[] data,
-            IContentComparer tester,
-            IDatabase repository,
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDirectoryManager inputOutputManager;
+
+        public TraverseFoldersCommand(string input, string[] data) 
+            : base(input, data)
         {
         }
 
@@ -20,7 +19,7 @@
         {
             if (this.Data.Length == 1)
             {
-                this.InputOutputManager.TraverseDirectory(0);
+                this.inputOutputManager.TraverseDirectory(0);
             }
             else if (this.Data.Length == 2)
             {
@@ -28,7 +27,7 @@
                 bool hasParsed = int.TryParse(this.Data[1], out depth);
                 if (hasParsed)
                 {
-                    this.InputOutputManager.TraverseDirectory(depth);
+                    this.inputOutputManager.TraverseDirectory(depth);
                 }
                 else
                 {

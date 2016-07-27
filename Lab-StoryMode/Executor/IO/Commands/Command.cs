@@ -1,6 +1,5 @@
 ﻿namespace Executor.IO.Commands
 {
-    using System;
     using Executor.Contracts;
     using Executor.Exceptions;
 
@@ -9,25 +8,10 @@
         private string input;
         private string[] data;
 
-        private IContentComparer tester;
-        private IDatabase repository;
-        private IDownloadManager downloadManager;
-        private IDirectoryManager inputOutputManager;
-
-        protected Command(
-            string input, 
-            string[] data, 
-            IContentComparer tester, 
-            IDatabase repository,
-            IDownloadManager downloadManager, 
-            IDirectoryManager ioManager)
+        protected Command(string input, string[] data) 
         {
             this.Input = input;
             this.Data = data;
-            this.tester = tester;
-            this.repository = repository;
-            this.downloadManager = downloadManager;
-            this.inputOutputManager = ioManager;
         }
 
         public string Input
@@ -64,26 +48,6 @@
 
                 this.data = value;
             }
-        }
-
-        protected IDatabase Repository
-        {
-            get { return this.repository; }
-        }
-
-        protected IContentComparer Tester
-        {
-            get { return this.tester; }
-        }
-
-        protected IDirectoryManager InputOutputManager
-        {
-            get { return this.inputOutputManager; }
-        }
-
-        protected IDownloadManager DownloadManager
-        {
-            get { return this.downloadManager; }
         }
 
         public abstract void Execute();

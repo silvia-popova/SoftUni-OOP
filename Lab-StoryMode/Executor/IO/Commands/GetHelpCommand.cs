@@ -1,20 +1,15 @@
 ﻿namespace Executor.IO.Commands
 {
     using System.Text;
-
+    using Executor.Attributes;
     using Executor.Contracts;
     using Executor.Exceptions;
 
+    [Alias("help")]
     public class GetHelpCommand : Command
     {
-        public GetHelpCommand(
-            string input,
-            string[] data,
-            IContentComparer tester,
-            IDatabase repository,
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        public GetHelpCommand(string input, string[] data) 
+            : base(input, data)
         {
         }
 

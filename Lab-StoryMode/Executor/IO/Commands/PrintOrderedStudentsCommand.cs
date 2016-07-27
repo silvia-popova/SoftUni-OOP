@@ -1,17 +1,17 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Executor.Attributes;
     using Executor.Contracts;
+    using Executor.Exceptions;
 
+    [Alias("order")]
     public class PrintOrderedStudentsCommand : Command
     {
-        public PrintOrderedStudentsCommand(
-            string input,
-            string[] data,
-            IContentComparer tester,
-            IDatabase repository,
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDatabase repository;
+
+        public PrintOrderedStudentsCommand(string input, string[] data) 
+            : base(input, data)
         {
         }
 
@@ -19,6 +19,7 @@
         {
             if (this.Data.Length != 5)
             {
+                throw new InvalidCommandException(this.Input);
             }
 
             string courseName = this.Data[1];
@@ -35,7 +36,7 @@
             {
                 if (takeQuantity == "all")
                 {
-                    this.Repository.OrderAndTake(courseName, orderType);
+                    this.repository.OrderAndTake(courseName, orderType);
                 }
                 else
                 {
@@ -43,7 +44,7 @@
                     bool hasParsed = int.TryParse(takeQuantity, out studentsToTake);
                     if (hasParsed)
                     {
-                        this.Repository.OrderAndTake(courseName, orderType, studentsToTake);
+                        this.repository.OrderAndTake(courseName, orderType, studentsToTake);
                     }
                     else
                     {

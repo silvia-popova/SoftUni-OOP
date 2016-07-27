@@ -2,20 +2,18 @@
 {
     using System;
     using System.Collections.Generic;
-
+    using Executor.Attributes;
     using Executor.Contracts;
     using Executor.Exceptions;
 
+    [Alias("display")]
     public class DisplayCommand : Command, IExecutable
     {
-        public DisplayCommand(
-            string input,
-            string[] data,
-            IContentComparer tester,
-            IDatabase repository,
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDatabase repository;
+
+        public DisplayCommand(string input, string[] data) 
+            : base(input, data)
         {
         }
 
@@ -34,13 +32,13 @@
             if (entityToDisplay.Equals("students", StringComparison.OrdinalIgnoreCase))
             {
                 IComparer<ISudent> studentComparator = this.CreateStudentComparator(sortType);
-                ISimpleOrderedBag<ISudent> list = this.Repository.GetAllStudentsSorted(studentComparator);
+                ISimpleOrderedBag<ISudent> list = this.repository.GetAllStudentsSorted(studentComparator);
                 OutputWriter.WriteMessageOnNewLine(list.JoinWith(Environment.NewLine));
             }
             else if (entityToDisplay.Equals("courses", StringComparison.OrdinalIgnoreCase))
             {
                 IComparer<ICourse> courseComparator = this.CreateCourseComparator(sortType);
-                ISimpleOrderedBag<ICourse> list = this.Repository.GetAllCoursesSorted(courseComparator);
+                ISimpleOrderedBag<ICourse> list = this.repository.GetAllCoursesSorted(courseComparator);
                 OutputWriter.WriteMessageOnNewLine(list.JoinWith(Environment.NewLine));
             }
             else
