@@ -1,1 +1,6 @@
 C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem3.DependencyInversion\bin\Debug\Problem3.DependencyInversion.exe.config
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem3.DependencyInversion\bin\Debug\Problem3.DependencyInversion.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem3.DependencyInversion\bin\Debug\Problem3.DependencyInversion.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem3.DependencyInversion\obj\Debug\Problem3.DependencyInversion.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem3.DependencyInversion\obj\Debug\Problem3.DependencyInversion.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem3.DependencyInversion\obj\Debug\Problem3.DependencyInversion.pdb

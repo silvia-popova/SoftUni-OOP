@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdditionStrategy.cs" />
+    <Compile Include="OnCalculationEventArgs.cs" />
     <Compile Include="PrimitiveCalculator.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SubtractionStrategy.cs" />
+    <Compile Include="CalculationStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

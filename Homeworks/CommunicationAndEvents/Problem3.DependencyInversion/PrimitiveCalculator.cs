@@ -1,43 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03DependencyInversion
+﻿namespace Problem3.DependencyInversion
 {
-    class PrimitiveCalculator
+    public delegate void OnCalculationEventHandler(PrimitiveCalculator sender, OnCalculationEventArgs eventArgs);
+
+    public class PrimitiveCalculator
     {
-        private bool isAddition;
-        private AdditionStrategy additionStrategy;
-        private SubtractionStrategy subtractionStrategy;
+        public event OnCalculationEventHandler OnCalculation;
+        
+        private char @operator;
 
-        public PrimitiveCalculator()
+        public PrimitiveCalculator(CalculationStrategy calculationStrategy)
         {
-            this.additionStrategy = new AdditionStrategy();
-            this.subtractionStrategy = new SubtractionStrategy();
-            this.isAddition = true;
+            this.@operator = '+';
+            this.OnCalculation += calculationStrategy.Calculate;
         }
 
-        public void changeStrategy(char @operator)
+        public void ChangeStrategy(char @operator)
         {
-            switch (@operator){
-            case '+': this.isAddition = true;
-                break;
-            case '-':this.isAddition = false;
-                break;
-            }
+            this.@operator = @operator;
         }
 
-        public int performCalculation(int firstOperand, int secondOperand)
+        public void PerformCalculation(int firstOperand, int secondOperand)
         {
-            if (this.isAddition)
-            {
-                return additionStrategy.Calculate(firstOperand, secondOperand);
-            }
-            else {
-                return subtractionStrategy.Calculate(firstOperand, secondOperand);
-            }
+              this.OnCalculation?.Invoke(
+                  this, 
+                  new OnCalculationEventArgs(firstOperand, secondOperand, this.@operator));            
         }
     }
 }
