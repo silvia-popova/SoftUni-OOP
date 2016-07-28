@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\02BlackBoxInteger\bin\Debug\02BlackBoxInteger.exe.config
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\02BlackBoxInteger\bin\Debug\02BlackBoxInteger.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\02BlackBoxInteger\bin\Debug\02BlackBoxInteger.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\02BlackBoxInteger\obj\Debug\02BlackBoxInteger.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\02BlackBoxInteger\obj\Debug\02BlackBoxInteger.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\02BlackBoxInteger\obj\Debug\02BlackBoxInteger.pdb

@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\03BarracksFactory\bin\Debug\03BarracksFactory.exe.config
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\03BarracksFactory\bin\Debug\03BarracksFactory.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\03BarracksFactory\bin\Debug\03BarracksFactory.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\03BarracksFactory\obj\Debug\03BarracksFactory.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\03BarracksFactory\obj\Debug\03BarracksFactory.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\03BarracksFactory\obj\Debug\03BarracksFactory.pdb

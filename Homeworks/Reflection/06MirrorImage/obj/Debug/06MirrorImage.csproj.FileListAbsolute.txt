@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\06MirrorImage\bin\Debug\06MirrorImage.exe.config
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\06MirrorImage\bin\Debug\06MirrorImage.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\06MirrorImage\bin\Debug\06MirrorImage.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\06MirrorImage\obj\Debug\06MirrorImage.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\06MirrorImage\obj\Debug\06MirrorImage.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\Reflection\06MirrorImage\obj\Debug\06MirrorImage.pdb
