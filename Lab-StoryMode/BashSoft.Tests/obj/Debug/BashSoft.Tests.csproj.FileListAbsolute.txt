@@ -1,0 +1,8 @@
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Lab-StoryMode\BashSoft.Tests\bin\Debug\BashSoft.Tests.dll
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Lab-StoryMode\BashSoft.Tests\bin\Debug\BashSoft.Tests.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Lab-StoryMode\BashSoft.Tests\bin\Debug\Executor.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Lab-StoryMode\BashSoft.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Lab-StoryMode\BashSoft.Tests\bin\Debug\Executor.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Lab-StoryMode\BashSoft.Tests\obj\Debug\BashSoft.Tests.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Lab-StoryMode\BashSoft.Tests\obj\Debug\BashSoft.Tests.dll
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Lab-StoryMode\BashSoft.Tests\obj\Debug\BashSoft.Tests.pdb

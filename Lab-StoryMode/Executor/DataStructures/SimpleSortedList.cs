@@ -36,8 +36,15 @@
 
         public int Size => this.size;
 
+        public int Capasity => this.innerCollection.Length;
+
         public void Add(T element)
         {
+            if (element == null)
+            {
+                throw new ArgumentNullException(nameof(element), "Element cannot be null");
+            }
+
             if (this.Size + 1 >= this.innerCollection.Length)
             {
                 this.Resize();
@@ -51,6 +58,11 @@
 
         public void AddAll(ICollection<T> elements)
         {
+            if (elements == null)
+            {
+                throw new ArgumentNullException(nameof(elements), "Elements cannot be null");
+            }
+
             if (this.Size + elements.Count >= this.innerCollection.Length)
             {
                 this.MultiResize(elements);
@@ -63,6 +75,41 @@
             }
 
             this.BubbleSort(this.innerCollection, this.comparer);
+        }
+
+        public bool Remove(T element)
+        {
+            if (element == null)
+            {
+                throw new ArgumentNullException(nameof(element), "Element cannot be null");
+            }
+
+            bool hasBeenRemoved = false;
+
+            int indexOfRemovedElement = 0;
+            for (int i = 0; i < this.Size; i++)
+            {
+                if (this.innerCollection[i].Equals(element))
+                {
+                    indexOfRemovedElement = i;
+                    this.innerCollection[i] = default(T);
+                    hasBeenRemoved = true;
+                    break;
+                }
+            }
+
+            if (hasBeenRemoved)
+            {
+                for (int i = indexOfRemovedElement; i < this.Size - 1; i++)
+                {
+                    this.innerCollection[i] = this.innerCollection[i + 1];
+                }
+
+                this.innerCollection[this.Size - 1] = default(T);
+                this.size--;
+            }
+
+            return hasBeenRemoved;
         }
 
         public IEnumerator<T> GetEnumerator()
@@ -80,6 +127,11 @@
         
         public string JoinWith(string joiner)
         {
+            if (joiner == null)
+            {
+                throw new ArgumentNullException(nameof(joiner), "Joiner cannot be null");
+            }
+
             var result = new StringBuilder();
 
             foreach (var element in this)
@@ -88,7 +140,7 @@
                 result.Append(joiner);
             }
 
-            result.Remove(result.Length - 1, 1);
+            result.Remove(result.Length - joiner.Length, joiner.Length);
             return result.ToString();
         }
 
