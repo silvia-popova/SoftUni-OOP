@@ -87,8 +87,8 @@
   <sourcecode name="AliasAttribute.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
-      <sourceFile>2016/07/27 14:46:01.345</sourceFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
+      <sourceFile>2016/07/27 14:55:17.865</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -105,39 +105,13 @@
       <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>1</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>2</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>3</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>4</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>5</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
   <sourcecode name="InjectAttribute.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
-      <sourceFile>2016/07/27 14:46:01.326</sourceFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
+      <sourceFile>2016/07/27 14:55:17.830</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -154,43 +128,12 @@
       <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>1</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>2</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>3</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>4</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>5</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
-        <context>The class must have an access modifier.</context>
-        <line>10</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
   <sourcecode name="IAsynchDownloader.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.399</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -213,7 +156,7 @@
   <sourcecode name="IContentComparer.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.406</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -236,7 +179,7 @@
   <sourcecode name="ICourse.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.413</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -259,7 +202,7 @@
   <sourcecode name="IDatabase.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.460</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -282,7 +225,7 @@
   <sourcecode name="IDataFilter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.448</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -305,7 +248,7 @@
   <sourcecode name="IDataSorter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.453</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -328,7 +271,7 @@
   <sourcecode name="IDirectoryChanger.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.466</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -351,7 +294,7 @@
   <sourcecode name="IDirectoryCreator.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.510</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -374,7 +317,7 @@
   <sourcecode name="IDirectoryManager.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.516</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -397,7 +340,7 @@
   <sourcecode name="IDirectoryTraverser.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.522</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -420,7 +363,7 @@
   <sourcecode name="IDownloader.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.536</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -443,7 +386,7 @@
   <sourcecode name="IDownloadManager.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.530</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -466,7 +409,7 @@
   <sourcecode name="IExecutable.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.577</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -489,7 +432,7 @@
   <sourcecode name="IFilteredTaker.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.582</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -512,7 +455,7 @@
   <sourcecode name="IInterpreter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.594</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -535,7 +478,7 @@
   <sourcecode name="IOrderedTaker.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.606</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -558,7 +501,7 @@
   <sourcecode name="IReader.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.612</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -581,7 +524,7 @@
   <sourcecode name="IRequester.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.617</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -604,8 +547,8 @@
   <sourcecode name="ISimpleOrderedBag.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
-      <sourceFile>2016/07/26 20:10:59.623</sourceFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
+      <sourceFile>2016/07/29 09:54:58.524</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -627,7 +570,7 @@
   <sourcecode name="ISudent.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.630</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -650,8 +593,8 @@
   <sourcecode name="SimpleSortedList.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
-      <sourceFile>2016/07/26 20:10:59.637</sourceFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
+      <sourceFile>2016/07/30 10:00:47.545</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -673,7 +616,7 @@
   <sourcecode name="DuplicateEntryInStructureException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.644</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -696,7 +639,7 @@
   <sourcecode name="InvalidCommandException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.720</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -719,7 +662,7 @@
   <sourcecode name="InvalidFileNameException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.911</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -742,7 +685,7 @@
   <sourcecode name="InvalidPathException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.918</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -765,7 +708,7 @@
   <sourcecode name="InvalidStringException.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:10:59.924</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -788,8 +731,8 @@
   <sourcecode name="CommandInterpreter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
-      <sourceFile>2016/07/27 14:50:41.242</sourceFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
+      <sourceFile>2016/07/27 14:55:17.889</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -806,68 +749,12 @@
       <StyleCop.CSharp.SpacingRules>2016/07/23 20:42:18.634</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="KeywordsMustBeSpacedCorrectly" ruleCheckId="SA1000">
-        <context>The spacing around the keyword 'typeof' is invalid.</context>
-        <line>55</line>
-        <index>1727</index>
-        <endIndex>1732</endIndex>
-        <startLine>55</startLine>
-        <startColumn>55</startColumn>
-        <endLine>55</endLine>
-        <endColumn>60</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1008">
-        <context>Invalid spacing around the opening parenthesis.</context>
-        <line>55</line>
-        <index>1733</index>
-        <endIndex>1733</endIndex>
-        <startLine>55</startLine>
-        <startColumn>61</startColumn>
-        <endLine>55</endLine>
-        <endColumn>61</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
-        <context>Invalid spacing around the closing parenthesis.</context>
-        <line>61</line>
-        <index>1963</index>
-        <endIndex>1963</endIndex>
-        <startLine>61</startLine>
-        <startColumn>36</startColumn>
-        <endLine>61</endLine>
-        <endColumn>36</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="KeywordsMustBeSpacedCorrectly" ruleCheckId="SA1000">
-        <context>The spacing around the keyword 'typeof' is invalid.</context>
-        <line>68</line>
-        <index>2428</index>
-        <endIndex>2433</endIndex>
-        <startLine>68</startLine>
-        <startColumn>76</startColumn>
-        <endLine>68</endLine>
-        <endColumn>81</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1008">
-        <context>Invalid spacing around the opening parenthesis.</context>
-        <line>68</line>
-        <index>2434</index>
-        <endIndex>2434</endIndex>
-        <startLine>68</startLine>
-        <startColumn>82</startColumn>
-        <endLine>68</endLine>
-        <endColumn>82</endColumn>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
   <sourcecode name="ChangeAbsolutePathCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.306</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -890,7 +777,7 @@
   <sourcecode name="ChangeRelativePathCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.241</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -913,7 +800,7 @@
   <sourcecode name="Command.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.271</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -936,7 +823,7 @@
   <sourcecode name="CompareFilesCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.213</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -959,7 +846,7 @@
   <sourcecode name="DisplayCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.190</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -982,7 +869,7 @@
   <sourcecode name="DownloadAsynchCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.166</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1005,7 +892,7 @@
   <sourcecode name="DownloadFileCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.133</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1028,7 +915,7 @@
   <sourcecode name="DropDatabaseCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.101</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1051,7 +938,7 @@
   <sourcecode name="GetHelpCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.073</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1074,7 +961,7 @@
   <sourcecode name="MakeDirectoryCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:01.042</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1097,7 +984,7 @@
   <sourcecode name="OpenFileCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:00.999</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1120,7 +1007,7 @@
   <sourcecode name="PrintFilteredStudentsCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:00.965</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1143,7 +1030,7 @@
   <sourcecode name="PrintOrderedStudentsCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:00.934</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1166,7 +1053,7 @@
   <sourcecode name="ReadDatabaseCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:00.880</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1189,7 +1076,7 @@
   <sourcecode name="ShowCourseCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:00.861</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1212,7 +1099,7 @@
   <sourcecode name="TraverseFoldersCommand.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/27 14:46:00.824</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1235,7 +1122,7 @@
   <sourcecode name="InputReader.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.637</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1258,7 +1145,7 @@
   <sourcecode name="IOManager.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.553</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1281,7 +1168,7 @@
   <sourcecode name="OutputWriter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.647</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1304,7 +1191,7 @@
   <sourcecode name="Tester.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.661</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1327,7 +1214,7 @@
   <sourcecode name="SoftUniCourse.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.702</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1350,7 +1237,7 @@
   <sourcecode name="SoftUniStudent.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.708</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1373,7 +1260,7 @@
   <sourcecode name="DownloadManager.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.718</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1396,7 +1283,7 @@
   <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.790</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1419,7 +1306,7 @@
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.802</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1442,7 +1329,7 @@
   <sourcecode name="RepositioryFilter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.813</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1465,7 +1352,7 @@
   <sourcecode name="RepositorySorter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.820</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1488,7 +1375,7 @@
   <sourcecode name="StudentsRepository.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.850</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
@@ -1511,8 +1398,8 @@
   <sourcecode name="ExceptionMessages.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
-      <sourceFile>2016/07/26 20:11:00.870</sourceFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
+      <sourceFile>2016/07/30 10:00:47.607</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1665343935</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -1534,7 +1421,7 @@
   <sourcecode name="SessionData.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/07/23 20:42:18.634</styleCop>
-      <settingsFile>2016/07/26 20:11:00.861</settingsFile>
+      <settingsFile>2016/07/30 10:00:41.835</settingsFile>
       <sourceFile>2016/07/26 20:11:00.876</sourceFile>
       <parser>2016/07/23 20:42:18.634</parser>
       <StyleCop.CSharp.DocumentationRules>2016/07/23 20:42:18.634</StyleCop.CSharp.DocumentationRules>

@@ -42,7 +42,7 @@
         {
             if (element == null)
             {
-                throw new ArgumentNullException(nameof(element), "Element cannot be null");
+                throw new ArgumentNullException(nameof(element), string.Join(ExceptionMessages.NullParameter, "Element"));
             }
 
             if (this.Size + 1 >= this.innerCollection.Length)
@@ -60,7 +60,7 @@
         {
             if (elements == null)
             {
-                throw new ArgumentNullException(nameof(elements), "Elements cannot be null");
+                throw new ArgumentNullException(nameof(elements), string.Join(ExceptionMessages.NullParameter, "Elements"));
             }
 
             if (this.Size + elements.Count >= this.innerCollection.Length)
@@ -81,7 +81,7 @@
         {
             if (element == null)
             {
-                throw new ArgumentNullException(nameof(element), "Element cannot be null");
+                throw new ArgumentNullException(nameof(element), string.Join(ExceptionMessages.NullParameter, "Element"));
             }
 
             bool hasBeenRemoved = false;
@@ -129,7 +129,7 @@
         {
             if (joiner == null)
             {
-                throw new ArgumentNullException(nameof(joiner), "Joiner cannot be null");
+                throw new ArgumentNullException(nameof(joiner), string.Join(ExceptionMessages.NullParameter, "Joiner"));
             }
 
             var result = new StringBuilder();
@@ -148,7 +148,7 @@
         {
             if (capacity < 0)
             {
-                throw new ArgumentException("Capacity cannot be negative!");
+                throw new ArgumentException(ExceptionMessages.NegativeCapacity);
             }
 
             this.innerCollection = new T[capacity];

@@ -22,8 +22,8 @@
         {
             this.names =new SimpleSortedList<string>();
 
-            Assert.AreEqual(this.names.Capasity, 16);
-            Assert.AreEqual(this.names.Size, 0);
+            Assert.AreEqual(16, this.names.Capasity);
+            Assert.AreEqual(0, this.names.Size);
         }
 
         [TestMethod]
@@ -31,8 +31,8 @@
         {
             this.names = new SimpleSortedList<string>(20);
 
-            Assert.AreEqual(this.names.Capasity, 20);
-            Assert.AreEqual(this.names.Size, 0);
+            Assert.AreEqual(20, this.names.Capasity);
+            Assert.AreEqual(0, this.names.Size);
         }
 
         [TestMethod]
@@ -40,8 +40,8 @@
         {
             this.names = new SimpleSortedList<string>(StringComparer.OrdinalIgnoreCase ,30);
 
-            Assert.AreEqual(this.names.Capasity, 30);
-            Assert.AreEqual(this.names.Size, 0);
+            Assert.AreEqual(30, this.names.Capasity);
+            Assert.AreEqual(0, this.names.Size);
         }
 
         [TestMethod]
@@ -49,8 +49,8 @@
         {
             this.names = new SimpleSortedList<string>(StringComparer.OrdinalIgnoreCase);
 
-            Assert.AreEqual(this.names.Capasity, 16);
-            Assert.AreEqual(this.names.Size, 0);
+            Assert.AreEqual(16, this.names.Capasity);
+            Assert.AreEqual(0, this.names.Size);
         }
 
         [TestMethod]
@@ -95,9 +95,10 @@
             this.names.Add("pesho");
             this.names.Add("#pesho");
 
-            var expectedList = new List<string> { "#pesho" , "adi" , "Adi" , "pesho" };
-            var actualList = new List<string>();
+            var expectedList = new List<string> { "Adi", "adi", "pesho" , "#pesho" };
+            expectedList.Sort(StringComparer.InvariantCulture);
 
+            var actualList = new List<string>();
             foreach (var name in this.names)
             {
                 actualList.Add(name);
@@ -214,7 +215,5 @@
 
             Assert.AreEqual("Adi, Nase", result);
         }
-        
-        
     }
 }
