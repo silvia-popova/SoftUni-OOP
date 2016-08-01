@@ -6,7 +6,7 @@
     using Executor.Contracts;
     using Executor.Exceptions;
 
-    public class SoftUniStudent : ISudent
+    public class SoftUniStudent : IStudent
     {
         private string userName;
         private Dictionary<string, ICourse> enrolledCourses;
@@ -83,7 +83,7 @@
             return string.Format($"{this.userName} - {this.MarksByCourseName[courseName]}");
         }
 
-        public int CompareTo(ISudent other) => string.Compare(this.UserName, other.UserName, StringComparison.Ordinal);
+        public int CompareTo(IStudent other) => string.Compare(this.UserName, other.UserName, StringComparison.Ordinal);
 
         public override string ToString() => this.UserName;
 

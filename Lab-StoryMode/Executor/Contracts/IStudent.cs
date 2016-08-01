@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    public interface ISudent : IComparable<ISudent>
+    public interface IStudent : IComparable<IStudent>
     {
         string UserName { get; }
 

@@ -14,7 +14,7 @@
     public class StudentsRepository : IDatabase
     {
         private Dictionary<string, ICourse> courses;
-        private Dictionary<string, ISudent> students;
+        private Dictionary<string, IStudent> students;
 
         private bool isDataInitialized;
 
@@ -35,7 +35,7 @@
             }
         }
 
-        public IReadOnlyDictionary<string, ISudent> Students
+        public IReadOnlyDictionary<string, IStudent> Students
         {
             get
             {
@@ -58,7 +58,7 @@
                 throw new ArgumentException(ExceptionMessages.DataAlreadyInitializedException);
             }
 
-            this.students = new Dictionary<string, ISudent>();
+            this.students = new Dictionary<string, IStudent>();
             this.courses = new Dictionary<string, ICourse>();
             this.ReadData(fileName);
         }
@@ -104,9 +104,9 @@
             return sortedCourses;
         }
 
-        public ISimpleOrderedBag<ISudent> GetAllStudentsSorted(IComparer<ISudent> cmp)
+        public ISimpleOrderedBag<IStudent> GetAllStudentsSorted(IComparer<IStudent> cmp)
         {
-            var sortedStudents = new SimpleSortedList<ISudent>(cmp);
+            var sortedStudents = new SimpleSortedList<IStudent>(cmp);
             sortedStudents.AddAll(this.students.Values);
 
             return sortedStudents;
@@ -217,7 +217,7 @@
                             }
 
                             ICourse course = this.Courses[courseName];
-                            ISudent student = this.Students[username];
+                            IStudent student = this.Students[username];
 
                             student.EnrollInCourse(course);
                             student.SetMarkOnCourse(courseName, scores);

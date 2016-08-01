@@ -11,12 +11,12 @@
         public const int MaxScoreOnExamTask = 100;
 
         private string name;
-        private Dictionary<string, ISudent> studentsByName;
+        private Dictionary<string, IStudent> studentsByName;
 
         public SoftUniCourse(string name)
         {
             this.Name = name;
-            this.studentsByName = new Dictionary<string, ISudent>();
+            this.studentsByName = new Dictionary<string, IStudent>();
         }
 
         public string Name
@@ -37,7 +37,7 @@
             }
         }
 
-        public IReadOnlyDictionary<string, ISudent> StudentsByName
+        public IReadOnlyDictionary<string, IStudent> StudentsByName
         {
             get
             {
@@ -45,7 +45,7 @@
             }
         }
 
-        public void EnrollStudent(ISudent student)
+        public void EnrollStudent(IStudent student)
         {
             if (this.studentsByName.ContainsKey(student.UserName))
             {

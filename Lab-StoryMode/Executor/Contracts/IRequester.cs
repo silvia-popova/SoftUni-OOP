@@ -10,6 +10,6 @@
 
         ISimpleOrderedBag<ICourse> GetAllCoursesSorted(IComparer<ICourse> cmp);
 
-        ISimpleOrderedBag<ISudent> GetAllStudentsSorted(IComparer<ISudent> cmp);
+        ISimpleOrderedBag<IStudent> GetAllStudentsSorted(IComparer<IStudent> cmp);
     }
 }

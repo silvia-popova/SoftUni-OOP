@@ -31,8 +31,8 @@
 
             if (entityToDisplay.Equals("students", StringComparison.OrdinalIgnoreCase))
             {
-                IComparer<ISudent> studentComparator = this.CreateStudentComparator(sortType);
-                ISimpleOrderedBag<ISudent> list = this.repository.GetAllStudentsSorted(studentComparator);
+                IComparer<IStudent> studentComparator = this.CreateStudentComparator(sortType);
+                ISimpleOrderedBag<IStudent> list = this.repository.GetAllStudentsSorted(studentComparator);
                 OutputWriter.WriteMessageOnNewLine(list.JoinWith(Environment.NewLine));
             }
             else if (entityToDisplay.Equals("courses", StringComparison.OrdinalIgnoreCase))
@@ -63,15 +63,15 @@
             }
         }
 
-        private IComparer<ISudent> CreateStudentComparator(string sortType)
+        private IComparer<IStudent> CreateStudentComparator(string sortType)
         {
             if (sortType.Equals("ascending", StringComparison.OrdinalIgnoreCase))
             {
-                return Comparer<ISudent>.Create((student, student1) => student.CompareTo(student1));
+                return Comparer<IStudent>.Create((student, student1) => student.CompareTo(student1));
             }
             else if (sortType.Equals("descending", StringComparison.OrdinalIgnoreCase))
             {
-                return Comparer<ISudent>.Create((student, student1) => student1.CompareTo(student));
+                return Comparer<IStudent>.Create((student, student1) => student1.CompareTo(student));
             }
             else
             {

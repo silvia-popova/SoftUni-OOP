@@ -67,7 +67,7 @@
     <Compile Include="Contracts\IReader.cs" />
     <Compile Include="Contracts\IRequester.cs" />
     <Compile Include="Contracts\ISimpleOrderedBag.cs" />
-    <Compile Include="Contracts\ISudent.cs" />
+    <Compile Include="Contracts\IStudent.cs" />
     <Compile Include="DataStructures\SimpleSortedList.cs" />
     <Compile Include="Exceptions\DuplicateEntryInStructureException.cs" />
     <Compile Include="Exceptions\InvalidCommandException.cs" />
