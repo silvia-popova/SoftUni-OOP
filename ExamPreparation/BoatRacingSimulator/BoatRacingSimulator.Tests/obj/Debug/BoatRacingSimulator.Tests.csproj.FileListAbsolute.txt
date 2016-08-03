@@ -1,0 +1,12 @@
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\bin\Debug\BoatRacingSimulator.Tests.dll
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\bin\Debug\BoatRacingSimulator.Tests.pdb
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\bin\Debug\BoatRacingSimulator.exe
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\bin\Debug\BoatRacingSimulator.pdb
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\obj\Debug\BoatRacingSimulator.Tests.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\obj\Debug\BoatRacingSimulator.Tests.dll
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\obj\Debug\BoatRacingSimulator.Tests.pdb
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\bin\Debug\Castle.Core.dll
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\bin\Debug\Moq.dll
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\bin\Debug\Castle.Core.xml
+C:\Users\pc\Desktop\HQC\BoatRacingSimulator\BoatRacingSimulator.Tests\bin\Debug\Moq.xml

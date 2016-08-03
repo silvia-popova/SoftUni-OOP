@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\ExamPreparation\LambdaCore\LambdaCore-Skeleton\bin\Debug\LambdaCore.exe.config
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\ExamPreparation\LambdaCore\LambdaCore-Skeleton\bin\Debug\LambdaCore.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\ExamPreparation\LambdaCore\LambdaCore-Skeleton\bin\Debug\LambdaCore.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\ExamPreparation\LambdaCore\LambdaCore-Skeleton\obj\Debug\LambdaCore.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\ExamPreparation\LambdaCore\LambdaCore-Skeleton\obj\Debug\LambdaCore.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\ExamPreparation\LambdaCore\LambdaCore-Skeleton\obj\Debug\LambdaCore.pdb
