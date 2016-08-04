@@ -1,16 +1,13 @@
 ﻿namespace LambdaCore.Models.Fragments
 {
     using System;
-    using System.Runtime.Remoting.Activation;
     using LambdaCore.Contracts;
     using LambdaCore.Enums;
 
     public abstract class Fragment : IFragment
     {
         private string name;
-
         private FragmentType type;
-
         private int pressureAffection;
 
         protected Fragment(FragmentType type, string name, int pressureAffection)
@@ -24,7 +21,8 @@
 
         public FragmentType Type { get; protected set; }
 
-        public int PressureAffection {
+        public int PressureAffection
+        {
             get
             {
                 return this.pressureAffection;
@@ -34,8 +32,10 @@
             {
                 if (value < 0)
                 {
-                    throw new ArgumentException();
+                    throw new ArgumentException($"Failed to attach Fragment {this.Name}!");
                 }
+
+                this.pressureAffection = value;
             }
         }
 

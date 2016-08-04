@@ -1,4 +1,4 @@
-﻿namespace LambdaCore.IO.Commands
+﻿namespace LambdaCore.Core
 {
     using System;
     using System.Linq;
@@ -10,7 +10,7 @@
         public ICommand CreateCommand(string commandName, IEngine engine)
         {
             var type = Assembly.GetExecutingAssembly().GetTypes()
-                .FirstOrDefault(t => t.Name.ToLower() == commandName + "command");
+                .FirstOrDefault(t => t.Name == commandName + "Command");
 
             if (type == null)
             {

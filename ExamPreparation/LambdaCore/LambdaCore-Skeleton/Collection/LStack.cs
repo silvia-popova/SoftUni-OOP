@@ -3,7 +3,6 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using LambdaCore.Models.Cores;
 
     public class LStack<IFragment>
     {
@@ -25,12 +24,12 @@
             return item;
         }
 
-        public void Pop()
+        public void Peek()
         {
             this.innerList.RemoveLast();
         }
 
-        public IFragment Peek()
+        public IFragment Pop()
         {
             IFragment peekedItem = this.innerList.First();
             return peekedItem;
@@ -38,7 +37,7 @@
 
         public Boolean IsEmpty()
         {
-            return this.innerList.Count > 0;
+            return this.innerList.Count == 0;
         }
     }
 }

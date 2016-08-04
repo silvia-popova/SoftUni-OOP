@@ -1,4 +1,4 @@
-﻿namespace LambdaCore_Skeleton.IO.Commands
+﻿namespace LambdaCore.IO.Commands
 {
     using LambdaCore.Contracts;
 

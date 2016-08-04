@@ -1,6 +1,5 @@
 ﻿namespace LambdaCore.IO
 {
-    using System;
     using LambdaCore.Contracts;
 
     public class CommandInterpreter : ICommandInterpreter
@@ -20,17 +19,10 @@
         public void InterpretCommand(string input)
         {
             string[] data = input.Split(':');
-            string commandName = data[0].ToLower();
+            string commandName = data[0];
 
-            try
-            {
-                ICommand command = this.ParseCommand(commandName);
-                command.Execute(data);
-            }
-            catch (Exception ex)
-            {
-                this.Engine.Writer.WriteLine(ex.Message);
-            }
+            ICommand command = this.ParseCommand(commandName);
+            command.Execute(data);
         }
 
         private ICommand ParseCommand(string commandName)

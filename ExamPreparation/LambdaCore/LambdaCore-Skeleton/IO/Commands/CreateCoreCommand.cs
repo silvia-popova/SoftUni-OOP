@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LambdaCore_Skeleton.IO.Commands
+﻿namespace LambdaCore.IO.Commands
 {
+    using System;
     using LambdaCore.Contracts;
     using LambdaCore.Models.Cores;
 
@@ -17,8 +12,6 @@ namespace LambdaCore_Skeleton.IO.Commands
 
         public override void Execute(string[] inputData)
         {
-            //string[] commandParams = .Split('@');
-
             string[] commandParams = inputData[1].Split(new char[] { '@' }, StringSplitOptions.RemoveEmptyEntries);
 
             string type = commandParams[0];
@@ -41,6 +34,7 @@ namespace LambdaCore_Skeleton.IO.Commands
             }
 
             this.Engine.PowerPlant.Add(core);
+            this.Engine.PowerPlant.AddCore(core);
             this.Engine.Writer.WriteLine($"Successfully created Core {core.Name}!");
         }
     }

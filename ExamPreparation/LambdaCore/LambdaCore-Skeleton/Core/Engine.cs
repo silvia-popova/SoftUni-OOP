@@ -64,13 +64,20 @@
 
         public void Run()
         {
-            this.isRunning = true;
+            string input = this.reader.ReadLine();
 
-            while (this.isRunning)
+            while (input != "System Shutdown!")
             {
-                string input = this.reader.ReadLine();
+                try
+                {
+                    this.commandInterpreter.InterpretCommand(input);
+                }
+                catch (Exception ex)
+                {
+                    this.Writer.WriteLine(ex.Message);
+                }
 
-                this.commandInterpreter.InterpretCommand(input);
+                input = this.reader.ReadLine();
             }
         }
     }

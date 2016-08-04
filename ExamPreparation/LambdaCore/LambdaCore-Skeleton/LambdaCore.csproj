@@ -50,11 +50,16 @@
     <Compile Include="Contracts\ICommandInterpreter.cs" />
     <Compile Include="Enums\FragmentType.cs" />
     <Compile Include="Contracts\IInputReader.cs" />
+    <Compile Include="IO\Commands\AttachFragmentCommand.cs" />
     <Compile Include="IO\Commands\Command.cs" />
     <Compile Include="Contracts\ICommand.cs" />
-    <Compile Include="IO\Commands\CommandFactory.cs" />
+    <Compile Include="Core\CommandFactory.cs" />
     <Compile Include="Contracts\ICommandFactory.cs" />
     <Compile Include="IO\Commands\CreateCoreCommand.cs" />
+    <Compile Include="IO\Commands\DetachFragmentCommand.cs" />
+    <Compile Include="IO\Commands\RemoveCoreCommand.cs" />
+    <Compile Include="IO\Commands\SelectCoreCommand.cs" />
+    <Compile Include="IO\Commands\StatusCommand.cs" />
     <Compile Include="IO\InputReader.cs" />
     <Compile Include="Contracts\IOutputWriter.cs" />
     <Compile Include="IO\OutputWriter.cs" />

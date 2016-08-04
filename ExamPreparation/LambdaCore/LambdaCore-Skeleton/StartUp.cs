@@ -3,7 +3,6 @@
     using LambdaCore.Contracts;
     using LambdaCore.Core;
     using LambdaCore.IO;
-    using LambdaCore.IO.Commands;
 
     public class StartUp
     {

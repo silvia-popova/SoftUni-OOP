@@ -5,14 +5,14 @@
 
     public class NuclearFragment : Fragment
     {
-        public NuclearFragment(FragmentType type, string name, int pressureAffection) 
-            : base(type, name, pressureAffection * 2)
+        public NuclearFragment(string name, int pressureAffection) 
+            : base(FragmentType.Nuclear, name, pressureAffection * 2)
         {
         }
 
         public override void ChangePressure(ICore core)
         {
-            core.Pressure += this.PressureAffection;
+            core.Pressure += base.PressureAffection;
         }
     }
 }
