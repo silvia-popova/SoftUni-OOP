@@ -12,7 +12,7 @@
 
         public override void ChangePressure(ICore core)
         {
-            core.Pressure -= base.PressureAffection;
+            core.TempPressure -= base.PressureAffection;
         }
     }
 }

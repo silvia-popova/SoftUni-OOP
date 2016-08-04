@@ -8,7 +8,7 @@
 
         char Name { get; }
 
-        int Pressure { get; set; }
+        int TempPressure { get; set; }
 
         string Status { get; set; }
 

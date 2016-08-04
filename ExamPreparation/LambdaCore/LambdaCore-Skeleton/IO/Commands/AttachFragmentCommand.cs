@@ -20,7 +20,6 @@
             string name = commandParams[1];
             int pressureAffection = int.Parse(commandParams[2]);
 
-
             var type = Assembly.GetExecutingAssembly().GetTypes()
                 .FirstOrDefault(t => t.Name == fragmentType + "Fragment");
 

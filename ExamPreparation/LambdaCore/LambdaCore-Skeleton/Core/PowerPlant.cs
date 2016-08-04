@@ -35,6 +35,11 @@
         public void Remove(ICore core)
         {
             this.cores.Remove(core);
+
+            if (this.CurrentCore == core)
+            {
+                this.CurrentCore = null;
+            }
         }
 
         public IEnumerable<ICore> GetCores() => this.cores;

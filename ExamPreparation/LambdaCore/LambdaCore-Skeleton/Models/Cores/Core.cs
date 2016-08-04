@@ -1,7 +1,6 @@
-﻿using System;
-
-namespace LambdaCore_Skeleton.Models.Cores
+﻿namespace LambdaCore_Skeleton.Models.Cores
 {
+    using System;
     using System.Text;
     using LambdaCore.Collection;
     using LambdaCore.Contracts;
@@ -20,9 +19,8 @@ namespace LambdaCore_Skeleton.Models.Cores
         {
             this.Name = name;
             this.InitialDurability = initialDurability;
-            this.CurrentDurability = initialDurability;
+            this.Pressure = 0;
             this.fragments = new LStack<IFragment>();
-            this.Status = "NORMAL";
         }
 
         public char Name { get; private set; }
@@ -64,7 +62,9 @@ namespace LambdaCore_Skeleton.Models.Cores
             }
         }
 
-        public int Pressure
+        public int TempPressure { get; set; }
+
+        protected int Pressure
         {
             get
             {
@@ -77,6 +77,12 @@ namespace LambdaCore_Skeleton.Models.Cores
                 {
                     this.CurrentDurability -= value;
                     this.Status = "CRITICAL";
+                }
+
+                if (value <= 0)
+                {
+                    this.CurrentDurability = this.InitialDurability;
+                    this.Status = "NORMAL";
                 }
 
                 this.pressure = value;
@@ -96,7 +102,7 @@ namespace LambdaCore_Skeleton.Models.Cores
 
             this.fragments.Push(fragment);
 
-            fragment.ChangePressure(this);
+            this.ApplyPressureAffection();
         }
 
         public IFragment RemoveFragment()
@@ -107,6 +113,10 @@ namespace LambdaCore_Skeleton.Models.Cores
             }
 
             var fragment = this.fragments.Pop();
+
+            this.Pressure = 0;
+
+            this.ApplyPressureAffection();
 
             return fragment;
         }
@@ -120,6 +130,17 @@ namespace LambdaCore_Skeleton.Models.Cores
             result.AppendLine($"####Status: {this.Status}");
 
             return result.ToString().Trim();
+        }
+
+        private void ApplyPressureAffection()
+        {
+            foreach (var fragment in this.fragments)
+            {
+                fragment.ChangePressure(this);
+            }
+
+            this.Pressure = this.TempPressure;
+            this.TempPressure = 0;
         }
     }
 }
