@@ -2,6 +2,6 @@
 {
     public interface ICommandFactory
     {
-        ICommand CreateCommand(string comandName, IEngine engine);
+        ICommand CreateCommand(string commandName, IPowerPlant powerPlant);
     }
 }

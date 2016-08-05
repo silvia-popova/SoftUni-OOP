@@ -2,8 +2,8 @@
 {
     public interface ICommandInterpreter
     {
-        IEngine Engine { get; set; }
+        IPowerPlant PowerPlant { get; }
 
-        void InterpretCommand(string input);
+        string InterpretCommand(string input);
     }
 }

@@ -4,30 +4,32 @@
 
     public class CommandInterpreter : ICommandInterpreter
     {
-        private IEngine engine;
-        private ICommandFactory commandFactory;
+        private const string CommandSuffix = "Command";
 
-        public CommandInterpreter(ICommandFactory commandFactory)
+        public CommandInterpreter(ICommandFactory commandFactory, IPowerPlant powerPlant)
         {
             this.CommandFactory = commandFactory;
+            this.PowerPlant = powerPlant;
         }
 
         public ICommandFactory CommandFactory { get; private set; }
 
-        public IEngine Engine { get; set; }
+        public IPowerPlant PowerPlant { get; private set; }
 
-        public void InterpretCommand(string input)
+        public string InterpretCommand(string input)
         {
             string[] data = input.Split(':');
             string commandName = data[0];
 
-            ICommand command = this.ParseCommand(commandName);
-            command.Execute(data);
+            ICommand command = this.ParseCommand(commandName + CommandSuffix);
+            var output = command.Execute(data);
+
+            return output;
         }
 
         private ICommand ParseCommand(string commandName)
         {
-            return this.CommandFactory.CreateCommand(commandName, this.Engine);
+            return this.CommandFactory.CreateCommand(commandName, this.PowerPlant);
         }
     }
 }

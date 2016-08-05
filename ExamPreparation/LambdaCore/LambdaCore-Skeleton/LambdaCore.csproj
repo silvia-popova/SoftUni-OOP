@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="Collection\LStack.cs" />
     <Compile Include="Contracts\IPowerPlant.cs" />
+    <Compile Include="Exceptions\CurrentCoreNotSetException.cs" />
+    <Compile Include="IO\Messages.cs" />
+    <Compile Include="Exceptions\UnknownCommandException.cs" />
     <Compile Include="IO\CommandInterpreter.cs" />
     <Compile Include="Core\PowerPlant.cs" />
     <Compile Include="Core\Engine.cs" />

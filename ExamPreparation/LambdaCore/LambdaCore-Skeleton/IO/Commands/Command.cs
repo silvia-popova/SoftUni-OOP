@@ -4,13 +4,13 @@
 
     public abstract class Command : ICommand
     {
-        protected Command(IEngine engine)
+        protected Command(IPowerPlant powerPlant)
         {
-            this.Engine = engine;
+            this.PowerPlant = powerPlant;
         }
 
-        public IEngine Engine { get; private set; }
+        protected IPowerPlant PowerPlant { get; }
 
-        public abstract void Execute(string[] inputData);
+        public abstract string Execute(string[] inputData);
     }
 }

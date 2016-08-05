@@ -5,10 +5,10 @@
     using System.Linq;
     using System.Text;
     using LambdaCore.Contracts;
+    using LambdaCore.IO;
 
     public class PowerPlant : IPowerPlant
     {
-        private ICore currentCore;
         private List<ICore> cores;
         private Dictionary<char, ICore> coresByName;
 
@@ -26,7 +26,8 @@
         {
             if (core == null)
             {
-                throw new ArgumentNullException("Failed to create Core!");
+                throw new ArgumentNullException(string.Format(Messages.NullParameter, nameof(core)));
+
             }
 
             this.cores.Add(core);
@@ -50,7 +51,8 @@
         {
             if (core == null)
             {
-                throw new ArgumentNullException();
+                throw new ArgumentNullException(string.Format(Messages.NullParameter, nameof(core)));
+
             }
 
             this.coresByName[core.Name] = core;
@@ -70,7 +72,7 @@
         {
             if (!this.coresByName.ContainsKey(name))
             {
-                throw new ArgumentException($"Failed to select Core {name}!");
+                return null;
             }
 
             var core = this.coresByName[name];

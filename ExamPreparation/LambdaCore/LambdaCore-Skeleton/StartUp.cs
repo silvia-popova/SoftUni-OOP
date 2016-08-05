@@ -11,10 +11,10 @@
             IInpuReader reader = new InpuReader();
             IOutputWriter writer = new OutputWriter();
             ICommandFactory commandFactory= new CommandFactory();
-            ICommandInterpreter commandInterpreter = new CommandInterpreter(commandFactory);
             IPowerPlant powerPlant = new PowerPlant();
+            ICommandInterpreter commandInterpreter = new CommandInterpreter(commandFactory, powerPlant);
 
-            IEngine engine = new Engine(reader, writer, commandInterpreter, powerPlant);
+            IEngine engine = new Engine(reader, writer, commandInterpreter);
             engine.Run();
         }
     }

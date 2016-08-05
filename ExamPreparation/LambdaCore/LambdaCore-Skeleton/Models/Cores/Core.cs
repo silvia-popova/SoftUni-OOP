@@ -1,15 +1,15 @@
-﻿namespace LambdaCore_Skeleton.Models.Cores
+﻿namespace LambdaCore.Models.Cores
 {
     using System;
     using System.Text;
     using LambdaCore.Collection;
     using LambdaCore.Contracts;
+    using LambdaCore.IO;
     using LambdaCore.Models.Fragments;
 
     public abstract class Core : ICore
     {
         private char name;
-        private int durability;
         private int initialDurability;
         private int currentDurability;
         private int pressure;
@@ -48,17 +48,18 @@
         {
             get
             {
-                return this.durability;
+                return this.initialDurability;
             }
 
             private set
             {
                 if (value < 0)
                 {
-                    throw new ArgumentException("Failed to create Core!");
+                    throw new ArgumentException(string.Format(Messages.NegativeParameter, nameof(this.InitialDurability)));
+
                 }
 
-                this.durability = value;
+                this.initialDurability = value;
             }
         }
 

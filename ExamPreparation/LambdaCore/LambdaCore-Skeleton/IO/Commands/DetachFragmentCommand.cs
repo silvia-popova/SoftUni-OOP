@@ -1,23 +1,28 @@
 ﻿namespace LambdaCore.IO.Commands
 {
+    using System;
     using LambdaCore.Contracts;
+    using LambdaCore.Exceptions;
 
     public class DetachFragmentCommand : Command
     {
-        public DetachFragmentCommand(IEngine engine) : base(engine)
+        public DetachFragmentCommand(IPowerPlant powerPlant) 
+            : base(powerPlant)
         {
         }
 
-        public override void Execute(string[] inputData)
+        public override string Execute(string[] inputData)
         {
-            if (!this.Engine.PowerPlant.IsCurrentCoreSelected)
+            if (!this.PowerPlant.IsCurrentCoreSelected)
             {
-                this.Engine.Writer.WriteLine("Failed to detach Fragment!");
+                throw new CurrentCoreNotSetException("Failed to detach Fragment!");
             }
 
-            var fragment = this.Engine.PowerPlant.CurrentCore.RemoveFragment();
+            var fragment = this.PowerPlant.CurrentCore.RemoveFragment();
 
-            this.Engine.Writer.WriteLine($"Successfully detached Fragment {fragment.Name} from Core {this.Engine.PowerPlant.CurrentCore.Name}!");
+            var output = $"Successfully detached Fragment {fragment.Name} from Core {this.PowerPlant.CurrentCore.Name}!";
+
+            return output;
         }
     }
 }

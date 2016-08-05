@@ -3,6 +3,7 @@
     using System;
     using LambdaCore.Contracts;
     using LambdaCore.Enums;
+    using LambdaCore.IO;
 
     public abstract class Fragment : IFragment
     {
@@ -32,7 +33,7 @@
             {
                 if (value < 0)
                 {
-                    throw new ArgumentException($"Failed to attach Fragment {this.Name}!");
+                    throw new ArgumentException(string.Format(Messages.NegativeParameter, nameof(this.PressureAffection)));
                 }
 
                 this.pressureAffection = value;

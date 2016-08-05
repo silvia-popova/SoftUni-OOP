@@ -4,13 +4,16 @@
 
     public class StatusCommand : Command
     {
-        public StatusCommand(IEngine engine) : base(engine)
+        public StatusCommand(IPowerPlant powerPlant) 
+            : base(powerPlant)
         {
         }
 
-        public override void Execute(string[] inputData)
+        public override string Execute(string[] inputData)
         {
-            this.Engine.Writer.WriteLine(this.Engine.PowerPlant.ToString());
+            var output = this.PowerPlant.ToString();
+
+            return output;
         }
     }
 }

@@ -1,22 +1,36 @@
 ﻿namespace LambdaCore.IO.Commands
 {
+    using System;
     using LambdaCore.Contracts;
 
     public class SelectCoreCommand : Command
     {
-        public SelectCoreCommand(IEngine engine) : base(engine)
+        public SelectCoreCommand(IPowerPlant powerPlant) 
+            : base(powerPlant)
         {
         }
 
-        public override void Execute(string[] inputData)
+        public override string Execute(string[] inputData)
         {
             char name = inputData[1][1];
 
-            var core = this.Engine.PowerPlant.FindCoreByName(name);
+            if (inputData.Length != 2)
+            {
+                throw new ArgumentException($"Failed to select Core {name}!");
+            }
 
-            this.Engine.PowerPlant.CurrentCore = core;
+            var core = this.PowerPlant.FindCoreByName(name);
 
-            this.Engine.Writer.WriteLine($"Currently selected Core {name}!");
+            if (core == null)
+            {
+                throw new ArgumentException($"Failed to select Core {name}!");
+            }
+
+            this.PowerPlant.CurrentCore = core;
+
+            var output = $"Currently selected Core {name}!";
+
+            return output;
         }
     }
 }

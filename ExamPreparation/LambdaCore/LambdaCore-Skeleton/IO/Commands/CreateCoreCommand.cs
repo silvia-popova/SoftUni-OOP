@@ -1,41 +1,48 @@
 ﻿namespace LambdaCore.IO.Commands
 {
     using System;
+    using System.Linq;
+    using System.Reflection;
     using LambdaCore.Contracts;
-    using LambdaCore.Models.Cores;
 
     public class CreateCoreCommand : Command
     {
-        public CreateCoreCommand(IEngine engine) : base(engine)
+        private const string CoreSuffix = "Core";
+
+        public CreateCoreCommand(IPowerPlant powerPlant) 
+            : base(powerPlant)
         {
         }
 
-        public override void Execute(string[] inputData)
+        public override string Execute(string[] inputData)
         {
-            string[] commandParams = inputData[1].Split(new char[] { '@' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] commandParams = inputData[1].Split(new [] { '@' }, StringSplitOptions.RemoveEmptyEntries);
 
-            string type = commandParams[0];
+            string coreType = commandParams[0];
             int durability = int.Parse(commandParams[1]);
 
-            ICore core = null;
+            char name = (char)(this.PowerPlant.CoresCount + 'A');
 
-            switch (type)
+            var type = Assembly.GetExecutingAssembly().GetTypes()
+                .FirstOrDefault(t => t.Name == coreType + CoreSuffix);
+
+            if (type == null)
             {
-                case "System":
-                    char name = (char)(this.Engine.PowerPlant.CoresCount + 'A');
-                    core = new SystemCore(name, durability);
-                    break;
-                case "Para":
-                    name = (char)(this.Engine.PowerPlant.CoresCount + 'A');
-                    core = new ParaCore((char)(this.Engine.PowerPlant.CoresCount + 'A'), durability);
-                    break;
-                default:
-                    throw new ArgumentException("Failed to create Core!");
+                throw new ArgumentException(Messages.FailedToCreateCoreMessage);
             }
 
-            this.Engine.PowerPlant.Add(core);
-            this.Engine.PowerPlant.AddCore(core);
-            this.Engine.Writer.WriteLine($"Successfully created Core {core.Name}!");
+            ICore core = (ICore)Activator.CreateInstance(type, name, durability);
+
+            if (core == null)
+            {
+                throw new ArgumentException(Messages.FailedToCreateCoreMessage);
+            }
+
+            this.PowerPlant.Add(core);
+            this.PowerPlant.AddCore(core);
+            var output = string.Format(Messages.CreateCoreSuccessMessage, core.Name);
+
+            return output;
         }
     }
 }

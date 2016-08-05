@@ -2,65 +2,76 @@
 {
     using System;
     using LambdaCore.Contracts;
+    using LambdaCore.IO;
 
     public class Engine : IEngine
     {
         private IInpuReader reader;
         private IOutputWriter writer;
         private ICommandInterpreter commandInterpreter;
-        private IPowerPlant powerPlant;
-        private bool isRunning;
 
         public Engine(
             IInpuReader reader, 
             IOutputWriter writer, 
-            ICommandInterpreter commandInterpreter, 
-            IPowerPlant powerPlant)
+            ICommandInterpreter commandInterpreter)
         {
             this.Reader = reader;
             this.Writer = writer;
-            this.commandInterpreter = commandInterpreter;
-            this.commandInterpreter.Engine = this;
-            this.PowerPlant = powerPlant;
+            this.CommandInterpreter = commandInterpreter;
         }
 
-        public IInpuReader Reader
+        protected IInpuReader Reader
         {
             get
             {
-                return reader;
+                return this.reader;
             }
 
             private set
             {
                 if (value == null)
                 {
-                    throw new ArgumentNullException();
+                    throw new ArgumentNullException(string.Format(Messages.NullParameter, nameof(this.reader)));
                 }
 
-                reader = value;
+                this.reader = value;
             }
         }
 
-        public IOutputWriter Writer
+        protected IOutputWriter Writer
+        {
+            get { return this.writer; }
+
+            private set
+            {
+                if (value == null)
+                {
+                    throw new ArgumentNullException(string.Format(Messages.NullParameter, nameof(this.writer)));
+
+                }
+
+                this.writer = value;
+            }
+        }
+
+        protected ICommandInterpreter CommandInterpreter
         {
             get
             {
-                return writer;
+                return this.commandInterpreter;
             }
 
             private set
             {
                 if (value == null)
                 {
-                    throw new ArgumentNullException();
+                    throw new ArgumentNullException(string.Format(Messages.NullParameter, nameof(this.commandInterpreter)));
+
                 }
 
-                writer = value;
+                this.commandInterpreter = value;
             }
         }
-
-        public IPowerPlant PowerPlant { get; private set; }
 
         public void Run()
         {
@@ -70,7 +81,7 @@
             {
                 try
                 {
-                    this.commandInterpreter.InterpretCommand(input);
+                    this.Writer.WriteLine(this.commandInterpreter.InterpretCommand(input));
                 }
                 catch (Exception ex)
                 {

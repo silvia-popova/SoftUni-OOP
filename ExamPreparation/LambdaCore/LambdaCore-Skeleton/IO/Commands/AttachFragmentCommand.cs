@@ -4,15 +4,19 @@
     using System.Linq;
     using System.Reflection;
     using LambdaCore.Contracts;
+    using LambdaCore.Exceptions;
     using LambdaCore.Models.Fragments;
 
     public class AttachFragmentCommand : Command
     {
-        public AttachFragmentCommand(IEngine engine) : base(engine)
+        private const string FragmentSuffix = "Fragment";
+
+        public AttachFragmentCommand(IPowerPlant powerPlant) 
+            : base(powerPlant)
         {
         }
 
-        public override void Execute(string[] inputData)
+        public override string Execute(string[] inputData)
         {
             string[] commandParams = inputData[1].Split(new char[] { '@' }, StringSplitOptions.RemoveEmptyEntries);
 
@@ -21,23 +25,30 @@
             int pressureAffection = int.Parse(commandParams[2]);
 
             var type = Assembly.GetExecutingAssembly().GetTypes()
-                .FirstOrDefault(t => t.Name == fragmentType + "Fragment");
+                .FirstOrDefault(t => t.Name == fragmentType + FragmentSuffix);
 
             if (type == null)
             {
-                throw new ArgumentException($"Failed to attach Fragment {name}!");
+                throw new ArgumentException(string.Format(Messages.AttachFradmentFailed, name));
             }
 
             var fragment = (IFragment)Activator.CreateInstance(type, name, pressureAffection);
 
-            if (!this.Engine.PowerPlant.IsCurrentCoreSelected)
+            if (fragment == null)
             {
-                throw new ArgumentException($"Failed to attach Fragment {name}!");
+                throw new ArgumentException(string.Format(Messages.AttachFradmentFailed, name));
             }
 
-            this.Engine.PowerPlant.CurrentCore.AddFragment(fragment);
+            if (!this.PowerPlant.IsCurrentCoreSelected)
+            {
+                throw new ArgumentException(string.Format(Messages.AttachFradmentFailed, name));
+            }
 
-            this.Engine.Writer.WriteLine($"Successfully attached Fragment {name} to Core {this.Engine.PowerPlant.CurrentCore.Name}!");
+            this.PowerPlant.CurrentCore.AddFragment(fragment);
+
+            var output = string.Format(Messages.AttachFragmentSuccess, name, this.PowerPlant.CurrentCore.Name);
+
+            return output;
         }
     }
 }

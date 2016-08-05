@@ -1,28 +1,32 @@
 ﻿namespace LambdaCore.IO.Commands
 {
+    using System;
     using LambdaCore.Contracts;
 
     public class RemoveCoreCommand : Command
     {
-        public RemoveCoreCommand(IEngine engine) : base(engine)
+        public RemoveCoreCommand(IPowerPlant powerPlant) 
+            : base(powerPlant)
         {
         }
 
-        public override void Execute(string[] inputData)
+        public override string Execute(string[] inputData)
         {
             char name = inputData[1][1];
 
-            var core = this.Engine.PowerPlant.FindCoreByName(name);
+            var core = this.PowerPlant.FindCoreByName(name);
 
             if (core == null)
             {
-                this.Engine.Writer.WriteLine($"Failed to remove Core {name}!");
+                throw new ArgumentNullException($"Failed to remove Core {name}!");
             }
 
-            this.Engine.PowerPlant.RemoveCore(name);
-            this.Engine.PowerPlant.Remove(core);
+            this.PowerPlant.RemoveCore(name);
+            this.PowerPlant.Remove(core);
 
-            this.Engine.Writer.WriteLine($"Successfully removed Core {name}!");
+            var output = $"Successfully removed Core {name}!";
+
+            return output;
         }
     }
 }
