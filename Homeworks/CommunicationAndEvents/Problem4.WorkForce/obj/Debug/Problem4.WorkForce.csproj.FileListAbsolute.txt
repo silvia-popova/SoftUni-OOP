@@ -1,0 +1,6 @@
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem4.WorkForce\bin\Debug\Problem4.WorkForce.exe.config
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem4.WorkForce\bin\Debug\Problem4.WorkForce.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem4.WorkForce\bin\Debug\Problem4.WorkForce.pdb
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem4.WorkForce\obj\Debug\Problem4.WorkForce.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem4.WorkForce\obj\Debug\Problem4.WorkForce.exe
+C:\Users\pc\Documents\GitHub\SoftUni-OOP\Homeworks\CommunicationAndEvents\Problem4.WorkForce\obj\Debug\Problem4.WorkForce.pdb

@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem5.KingsGambitExtended
 {
-    using System.Security.Cryptography.X509Certificates;
-
     public delegate void OnAttackEventHandler(King sender, EventArgs eventArgs);
 
     public class King
